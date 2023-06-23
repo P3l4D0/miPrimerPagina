@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+   
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navlista{
+    display: flex;
+}
+.navlista a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlista a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.parallax_bg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax_bg::after{
+    content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/67233-mecanica.jpg') ;
+}
+
+.bg1 {
+    background-image: url('img/mecanico.jpg') ;
+}
+.bg2 {
+    background-image: url('img/43749-harley-davison.jpg') ;
+}
+.bg3 {
+    background-image: url('img/43818-harley-davison\ \(1\).jpg') ;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(245.59deg, rgb(33, 88, 102) 0%, rgb(56, 176, 180) 28.53%, rgb(34, 75, 107) 75.52%);
+    position: relative;;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+    z-index: 1;
+}
+.info h1{
+    font-size: 3rem;
+}
+.info p {
+    font-size: 1.2rem;
+    margin: 2rem auto;
+}
+.hero .info{
+    color: #fff;
+}
+.hero .info h1{
+    font-size: 4rem;
+}
+.hero .info p {
+    font-size: 1.5rem;
+    max-width: 70%;
+}
+.container {
+    position: relative;
+  }
+  
+  .main {
+    background-color: transparent;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
